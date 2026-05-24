@@ -18,7 +18,7 @@
     <button class="menu-btn" aria-label="Toggle menu">☰</button>
     <ul class="nav-links">
       <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
+      <li><a href="#platforms">Platforms</a></li>
       <li><a href="#experience">Experience</a></li>
       <li><a href="#projects">Projects</a></li>
       <li><a href="#certifications">Certifications</a></li>
@@ -49,7 +49,7 @@
       </div>
 
       <div class="hero-buttons">
-        <a href="#contact" class="btn primary">Contact Me</a>
+        <a href="#contact" class="btn primary">Contact</a>
         <a href="https://www.linkedin.com/in/mission-rana/" target="_blank" rel="noopener" class="btn secondary">LinkedIn</a>
       </div>
     </div>
@@ -98,20 +98,109 @@
   </div>
 </section>
 
-<section id="skills" class="section light">
+<section id="platforms" class="section light">
   <div class="container">
     <div class="center-title reveal">
-      <p>Technical Skills</p>
-      <h2>Tools and technologies I work with</h2>
+      <p>Platforms & Technical Skills</p>
+      <h2>Platforms I used and what I did</h2>
     </div>
 
-    <div class="card-grid">
-      <article class="card reveal"><h3>Help Desk & Support</h3><p>Technical support, incident management, troubleshooting, escalation, ServiceNow, Jira, and remote support.</p></article>
-      <article class="card reveal"><h3>Microsoft Environment</h3><p>Microsoft 365, Active Directory, Entra ID, Intune, Teams, SharePoint, user accounts, and password resets.</p></article>
-      <article class="card reveal"><h3>Networking</h3><p>TCP/IP, DNS, DHCP, VPN, VLANs, LAN/WLAN, routers, switches, and connectivity troubleshooting.</p></article>
-      <article class="card reveal"><h3>Systems</h3><p>Windows 10/11, Windows Server, Linux, macOS, VMware, Hyper-V, and VirtualBox lab environments.</p></article>
-      <article class="card reveal"><h3>Hardware & Devices</h3><p>PCs, laptops, printers, peripherals, imaging, deployment, YubiKeys, GNSS devices, and Cradlepoint routers.</p></article>
-      <article class="card reveal"><h3>Automation</h3><p>PowerShell basics, Python basics, Bash, Ansible, Terraform, and Infrastructure as Code fundamentals.</p></article>
+    <div class="platform-grid">
+      <article class="platform-card reveal">
+        <h3>Help Desk & End User Support</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>ServiceNow, Jira, TeamViewer, Microsoft 365</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Managed incidents, requests, and escalation workflows.</li>
+            <li>Provided remote and onsite support for end users.</li>
+            <li>Documented troubleshooting steps and service outcomes.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="platform-card reveal">
+        <h3>Microsoft Infrastructure</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>Active Directory, Entra ID, Intune, Teams, SharePoint</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Supported user accounts, password resets, and access requests.</li>
+            <li>Worked with directory-based permissions and user management.</li>
+            <li>Practiced device and Microsoft 365 administration tasks.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="platform-card reveal">
+        <h3>Networking</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>Cisco Packet Tracer, routers, switches, Cradlepoint, WLAN tools</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Configured VLANs, DHCP, DNS, routing, NAT, and ACLs.</li>
+            <li>Troubleshot VPN, LAN/WLAN, and connectivity issues.</li>
+            <li>Documented network topology and configuration steps.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="platform-card reveal">
+        <h3>Systems Administration</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>Windows Server, Linux, VMware, Hyper-V, VirtualBox</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Configured Active Directory, DHCP, file services, and GPOs.</li>
+            <li>Installed and administered Linux servers in lab environments.</li>
+            <li>Built and managed virtual machines for testing and deployment.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="platform-card reveal">
+        <h3>Cloud & Automation</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>Microsoft Azure, Terraform, Ansible, GitHub, YAML</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Provisioned Azure infrastructure using Terraform.</li>
+            <li>Built Ansible playbooks for repeatable server configuration.</li>
+            <li>Applied Infrastructure as Code concepts for consistent deployments.</li>
+          </ul>
+        </div>
+      </article>
+
+      <article class="platform-card reveal">
+        <h3>Hardware & Endpoint Support</h3>
+        <div class="platform-block">
+          <h4>Platforms Used</h4>
+          <p>Windows PCs, laptops, printers, YubiKeys, GNSS devices</p>
+        </div>
+        <div class="platform-block">
+          <h4>What I Did</h4>
+          <ul>
+            <li>Performed workstation setup, imaging, and device deployment.</li>
+            <li>Troubleshot peripherals, endpoint issues, and VPN connectivity.</li>
+            <li>Supported secure devices during election operations.</li>
+          </ul>
+        </div>
+      </article>
     </div>
   </div>
 </section>
@@ -161,13 +250,111 @@
       <h2>Academic and technical projects</h2>
     </div>
 
-    <div class="project-grid">
-      <article class="project-card reveal"><span>01</span><h3>WLAN Design & Validation</h3><p>Designed a secure high-density wireless network using ExtremeCloud IQ, TamoSoft, RADIUS, captive portal, and QoS.</p><div><b>WLAN</b><b>RADIUS</b><b>QoS</b></div></article>
-      <article class="project-card reveal"><span>02</span><h3>Azure Hybrid Cloud</h3><p>Designed an Azure hybrid cloud solution with Entra ID, RBAC, networking, VMs, storage, monitoring, and backups.</p><div><b>Azure</b><b>Entra ID</b><b>RBAC</b></div></article>
-      <article class="project-card reveal"><span>03</span><h3>Network Design</h3><p>Configured VLANs, DHCP, DNS, EIGRP, OSPF, NAT, ACLs, and Packet Tracer topology documentation.</p><div><b>VLANs</b><b>OSPF</b><b>DHCP</b></div></article>
-      <article class="project-card reveal"><span>04</span><h3>Windows & Linux Server Deployment</h3><p>Configured Windows Server with Active Directory, DHCP, file services, GPO, and Linux administration.</p><div><b>AD DS</b><b>Linux</b><b>GPO</b></div></article>
-      <article class="project-card reveal"><span>05</span><h3>Infrastructure Automation</h3><p>Created Ansible playbooks and Terraform deployments to automate system configuration and Azure provisioning.</p><div><b>Ansible</b><b>Terraform</b><b>IaC</b></div></article>
-      <article class="project-card reveal"><span>06</span><h3>VMware vSphere Lab</h3><p>Built VMware lab environments with ESXi, shared storage concepts, vMotion, and networking validation.</p><div><b>VMware</b><b>ESXi</b><b>vMotion</b></div></article>
+    <div class="project-grid detailed">
+      <article class="project-card reveal">
+        <span>01</span>
+        <h3>WLAN Design & Validation</h3>
+        <h4>Platforms Used</h4>
+        <p>ExtremeCloud IQ, TamoSoft, RADIUS, Captive Portal, QoS</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Performed predictive RF site survey for accurate WLAN planning.</li>
+          <li>Designed high-density Wi-Fi for voice, video, and BYOD access.</li>
+          <li>Configured RADIUS authentication and guest captive portal access.</li>
+          <li>Created a Bill of Materials and completed validation testing.</li>
+        </ul>
+        <div><b>RF Planning</b><b>WLAN</b><b>QoS</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>02</span>
+        <h3>Azure Hybrid Cloud Transformation</h3>
+        <h4>Platforms Used</h4>
+        <p>Microsoft Azure, Entra ID, RBAC, AKS, Docker, Monitoring</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Designed hybrid cloud architecture for Western Institute of Technology.</li>
+          <li>Built architecture diagrams covering identity, networking, and resources.</li>
+          <li>Demonstrated storage, websites, containerized services, backup, and cost management.</li>
+          <li>Presented a team demo showing scalability and cloud service availability.</li>
+        </ul>
+        <div><b>Azure</b><b>Entra ID</b><b>RBAC</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>03</span>
+        <h3>Network Design & Configuration</h3>
+        <h4>Platforms Used</h4>
+        <p>Cisco Packet Tracer, VLANs, DHCP, DNS, OSPF, EIGRP, NAT, ACLs</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Designed and configured a small business network topology.</li>
+          <li>Configured VLANs, DHCP, DNS, NAT, ACLs, and dynamic routing.</li>
+          <li>Applied subnetting and troubleshooting techniques for reliable connectivity.</li>
+          <li>Documented topology, configuration steps, and troubleshooting process.</li>
+        </ul>
+        <div><b>VLANs</b><b>OSPF</b><b>DHCP</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>04</span>
+        <h3>Windows & Linux Server Deployment</h3>
+        <h4>Platforms Used</h4>
+        <p>Windows Server, Active Directory, DHCP, Linux, Bash</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Configured Windows Server with AD DS, DHCP, file sharing, and policies.</li>
+          <li>Managed users, group permissions, and access control for a virtual organization.</li>
+          <li>Installed Linux server services and configured file sharing.</li>
+          <li>Used Bash scripts for basic automation and system administration tasks.</li>
+        </ul>
+        <div><b>AD DS</b><b>Linux</b><b>GPO</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>05</span>
+        <h3>Ansible Automation</h3>
+        <h4>Platforms Used</h4>
+        <p>Ansible, YAML, Linux, Windows Server</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Developed Ansible playbooks to automate Linux and Windows configuration.</li>
+          <li>Automated user creation, service updates, and application deployments.</li>
+          <li>Used roles, variables, and inventory grouping for scalable automation.</li>
+          <li>Reduced manual setup time and configuration errors.</li>
+        </ul>
+        <div><b>Ansible</b><b>YAML</b><b>Automation</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>06</span>
+        <h3>Terraform Infrastructure as Code</h3>
+        <h4>Platforms Used</h4>
+        <p>Terraform, Microsoft Azure, GitHub, IaC</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Designed and deployed Azure infrastructure using Terraform.</li>
+          <li>Created reusable templates and parameterized modules.</li>
+          <li>Automated virtual networks, virtual machines, and storage resources.</li>
+          <li>Applied state management and version control for repeatable deployments.</li>
+        </ul>
+        <div><b>Terraform</b><b>Azure</b><b>IaC</b></div>
+      </article>
+
+      <article class="project-card reveal">
+        <span>07</span>
+        <h3>vSphere Storage & Networking</h3>
+        <h4>Platforms Used</h4>
+        <p>VMware vSphere, ESXi, iSCSI, vMotion, VLANs</p>
+        <h4>Project Highlights</h4>
+        <ul>
+          <li>Designed and deployed a multi-host VMware vSphere environment.</li>
+          <li>Configured standard and distributed virtual switches with VLAN segmentation.</li>
+          <li>Implemented iSCSI shared storage and centralized datastore access.</li>
+          <li>Validated network failover, storage connectivity, and live VM migration.</li>
+        </ul>
+        <div><b>VMware</b><b>ESXi</b><b>vMotion</b></div>
+      </article>
     </div>
   </div>
 </section>
@@ -196,8 +383,8 @@
     <h2>Let's connect</h2>
     <span>Open to IT Support Technician, Service Desk Analyst, Help Desk Technician, and Desktop Support roles in Calgary, AB.</span>
     <div class="contact-actions">
-      <a href="mailto:missionmgr779@gmail.com" class="btn primary">Email Me</a>
-      <a href="https://www.linkedin.com/in/mission-rana/" target="_blank" rel="noopener" class="btn outline">LinkedIn Profile</a>
+      <a href="mailto:missionmgr779@gmail.com" class="btn primary">Email</a>
+      <a href="https://www.linkedin.com/in/mission-rana/" target="_blank" rel="noopener" class="btn outline">LinkedIn</a>
     </div>
   </div>
 </section>
