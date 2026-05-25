@@ -225,7 +225,7 @@ a {
   width: 165px;
   height: 165px;
   object-fit: cover;
-  object-position: center 30%;
+  object-position: center 15%;
   border-radius: 50%;
   border: 5px solid rgba(255,255,255,0.25);
   margin-bottom: 18px;
@@ -367,9 +367,13 @@ a {
 }
 
 .platform-card:hover,
-.project-card:hover,
 .cert:hover {
   transform: translateY(-4px);
+  box-shadow: var(--shadow);
+}
+
+.project-card:hover {
+  transform: translateY(-8px);
   box-shadow: var(--shadow);
 }
 
@@ -446,8 +450,9 @@ a {
 }
 
 .project-card {
-  padding: 26px;
-  transition: 0.2s ease;
+  padding: 30px;
+  transition: 0.3s ease;
+  border-top: 4px solid var(--blue);
 }
 
 .project-card > span {
